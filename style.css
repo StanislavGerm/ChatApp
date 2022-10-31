@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+
+#bg-hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(58, 58, 58);
+    z-index: -1;
+}
+
+.hero {
+    margin: 20px auto;
+    width: 85%;
+    height: 700px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 160px;
+    padding: 30px;
+    font-family: 'Poppins';
+    padding-bottom: 70px;
+}
+
+.logo {
+    font-family: 'Poppins';
+    font-size: 22px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.item-nav > a {
+    padding: 35px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn {
+    background: #788998;
+    border-radius: 60px;
+    padding: 12px 20px 12px 20px;
+    border-color: #788998;
+    color: #ffffff;
+}
+
+.buttonprim {
+    font-size: 14px;
+}
+
+.content-hero {
+    height: 600px;
+    display: flex;
+    margin: 0 160px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.text-content > h1 {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 86px;
+    line-height: 104px;
+    letter-spacing: -0.03em;
+    margin: 0;
+}
+
+.text-content > p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.img-content {
+    width: 50%;
+    height: 600px;
+}
+
+.btnc {
+    margin: 40px 10px;
+    border-radius: 60px;
+    padding: 10px 20px;
+    font-family: 'Poppins';
+}
+
+.btn-second {
+    padding: 10px 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    background: #EDCA56;
+    color: black;
+}
+
+.btn-third {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: rgb(58, 58, 58);
+    color: #ffffff;
+}
+
+.img-content {
+    position: relative;
+}
+
+.group1 {
+    position: absolute;  
+}
+
+.image-girl {
+ padding: 27px;
+}
+
+.girl {
+    position: absolute;  
+    z-index: 1;
+}
+
+.icon-girl {
+    margin-left: 320px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: url(image/pexels-christina-morillo-1181681\ 1.svg);
+    background-size: cover;
+}
+
+.icon-girl > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.text-girl {
+    width: 185px;
+    height: 60px;
+    margin-left: 50px;
+    background: #EDCA56;
+    border-radius: 0 10px 10px 15px;
+    text-align: center;
+}
+
+.text-girl > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 5px;
+}
+
+.group2 {
+    position: absolute;
+    right: 44%;
+    top: 27%;
+}
+
+.image-girl2 {
+    position: absolute;  
+    z-index: 1;
+    left: 34%;
+    top: 43%;
+}
+
+.icon-girl2 > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 14px;
+}
+
+.icon-girl2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 30%;
+    margin-top: 235px;
+}
+
+.text-girl2 {
+    width: 65%;
+    height: 40px;
+}
+
+.text-girl2 > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    background: #788998;
+    border-radius: 20px 0 20px 20px;
+    padding: 10px 4px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+.team-chats {
+    margin: 60px;
+    text-align: center;
+}
+
+.content-team {
+    width: 40%;
+    margin: auto;
+}
+
+.content-team > h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 104px;
+    color: #2C353E;
+}
+
+.content-team > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #5E5A5A;
+    text-align: left;
+}
+
+.chat-img {
+    position: relative;
+    z-index: 2;
+}
+
+.chat-img > img {
+    width: 80%;
+}
+
+.group3 > img {
+    position: absolute;
+    top: 124%;
+    left: 265px;
+    z-index: 1;
+}
+
+.small-buisnes {
+    width: 100%;
+    height: 900px;
+    padding-top: 100px;
+    background: #E5E5E5;
+    display: flex;
+}
+
+.image-person {
+    width: 40%;
+    position: relative;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+
+.text-buisnes {
+    width: 40%;
+}
+
+#group4 {
+    position: absolute;
+    bottom: 84%;
+    left: 3%;
+    z-index: -1;
+}
+
+#group5 {
+    position: absolute;
+    top: 35%;
+    right: 6%;
+    z-index: -1;
+}
+
+.text {
+    width: 500px;
+}
+
+.text > h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #2C353E;
+}
+
+.text > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #5E5A5A;
+}
+
+.btn-thour {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #ffffff;
+    color: black;
+    border: 1.5px solid black;
+}
+
+.border {
+    border-bottom:  1px solid rgba(103, 84, 84, 0.24);
+    transform: rotate(0.34deg);
+    width: 22%;
+}
+
+.stars {
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.text-star {
+    width: 350px;
+    padding-left: 50px;
+}
+
+.text-star > p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.container-footer {
+    display: flex;
+    height: 500px;
+    margin: 20px 160px;
+    padding: 25px;
+    font-family: 'Poppins';
+}
+
+.logo-company {
+    width: 30%;
+}
+
+.logo-company > h2 {
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.03em;
+    color: #1E71FF;
+    font-weight: 300;
+}
+
+.blue {
+    font-weight: 700;
+}
+
+.logo-company > p {
+    width: 180px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+#end {
+    margin-top: 80%;
+}
+
+.items-footer {
+    width: 70%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+}
+
+.item-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-footer > a {
+    padding: 20px 30px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
